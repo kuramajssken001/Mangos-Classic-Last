@@ -11,6 +11,7 @@ extern void AddSC_battleground();
 extern void AddSC_Item_Level();
 extern void AddSC_Item_Talent();
 extern void AddSC_npc_custom_box();
+extern void AddSC_npc_training_dummy();
 
 // examples
 extern void AddSC_example_creature();
@@ -214,6 +215,7 @@ void AddScripts()
 	AddSC_Item_Level();
 	AddSC_Item_Talent();
 	AddSC_npc_custom_box();
+	AddSC_npc_training_dummy();
 
     // examples
     AddSC_example_creature();
